@@ -1,5 +1,5 @@
 baseurl: "https://go-comply-io.github.io/site/" # the subpath of your site, e.g. /blog
-sites.baseurl: "https://go-comply-io.github.io/site/" # the subpath of your site, e.g. /blog
+relative_url: "https://go-comply-io.github.io/site/" # the subpath of your site, e.g. /blog
 
 
 url: "https://go-comply-io.github.io/site" # the base hostname & protocol for your site, e.g. http://example.com
