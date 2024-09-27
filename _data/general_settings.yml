@@ -1,7 +1,7 @@
 # General Settings
 title: "go-comply.io - GRC, Compliance and Legal Tech "
-email: "tortoizthemes@gmail.com"
-email_2: "support@tortoizthemes.com"
+email: "support@go-comply.io"
+email_2: "support1@go-comply.io"
 description: >- # this means to ignore newlines until "baseurl:"
   Snowlake is a multi-concept and powerful site template contains 
   rich layouts with possibility of unlimited combinations & beautiful elements.
@@ -119,6 +119,4 @@ gallery:
   - img: "/assets/images/art/z6.svg"
   - img: "/assets/images/art/z7.svg"
   - img: "/assets/images/art/z8.svg"
-
-
-  relative_url: "https://go-comply-io.github.io/site/"
+ 
