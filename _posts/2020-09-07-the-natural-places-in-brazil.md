@@ -4,7 +4,7 @@ title: "The Natural Places in Brazil"
 date: 2020-09-06 20:37:13 +0600
 categories: [wedding]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/tb7.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/tb7.jpg"
 badge_color: "bg-green"
 slider_post: true
 ---

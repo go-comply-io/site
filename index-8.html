@@ -8,7 +8,7 @@ hero_area:
   enable: true
   title: "Hello! We're Snowlake"
   sub_title: "We bring rapid solutions for your business"
-  bg_image: "/assets/images/art/bg11.jpg"
+  bg_image: "{{site.baseurl}}/assets/images/art/bg11.jpg"
   vimeo_video_id: "124071444"
 
 services_area:
@@ -22,26 +22,26 @@ services_area:
   services: 
     - title: "24/7 Support"
       sub_title: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum"
-      icon: "/assets/images/icons/hs-24-hours-1.png" 
+      icon: "{{site.baseurl}}/assets/images/icons/hs-24-hours-1.png" 
 
     - title: "Secure Payments"
       sub_title: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio.Cum"
-      icon: "/assets/images/icons/st-payment-method.png" 
+      icon: "{{site.baseurl}}/assets/images/icons/st-payment-method.png" 
 
     - title: "Daily Updates"
       sub_title: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum"
-      icon: "/assets/images/icons/ms-cloud-computing.png" 
+      icon: "{{site.baseurl}}/assets/images/icons/ms-cloud-computing.png" 
 
     - title: "Research & Marketing"
       sub_title: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum"
-      icon: "/assets/images/icons/of-diagram.png" 
+      icon: "{{site.baseurl}}/assets/images/icons/of-diagram.png" 
 
 
 two_columns_area_one:
   enable: true
   title: "How It Works?"
   sub_title: "Find out everything you need about creating a business process model."
-  image: "/assets/images/art/about5.jpg"
+  image: "{{site.baseurl}}/assets/images/art/about5.jpg"
   youtube_video_url: "https://www.youtube.com/watch?v=26TbMXXOe0I"
   lists:
 
@@ -62,7 +62,7 @@ two_columns_area_two:
   enable: true
   title: "What We Do?"
   sub_title: "We specialize in web, mobile, brand & product design. We love to turn ideas into beautiful things."
-  image: "/assets/images/art/about2.jpg"
+  image: "{{site.baseurl}}/assets/images/art/about2.jpg"
   skills:
     - title: "Web Development"
       numbers: 100
@@ -84,7 +84,7 @@ two_columns_area_three:
   enable: true
   title: "Why Choose Us?"
   sub_title: "So here are a few reasons why our valued customers choose us."
-  image: "/assets/images/art/about6.jpg"
+  image: "{{site.baseurl}}/assets/images/art/about6.jpg"
   tabs:
 
     - title: "Money Protection"
@@ -102,7 +102,7 @@ two_columns_area_three:
 progress_area:
   enable: true
   title: "Company Progress"
-  bg_image: "/assets/images/art/bg5.jpg"
+  bg_image: "{{site.baseurl}}/assets/images/art/bg5.jpg"
   lists:
 
     - title: "New Visitors"
@@ -134,53 +134,53 @@ projects_area:
     - title: "Clipboard Office"
       sub_title: "Application"
       images:
-        - img: "/assets/images/art/s3.jpg"
-        - img: "/assets/images/art/s3-2.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s3.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s3-2.jpg"
       url: "#"
 
     - title: "Branding Stationery"
       sub_title: "Video, Application"
       images:
-        - img: "/assets/images/art/s4.jpg"
-        - img: "/assets/images/art/s4-2.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s4.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s4-2.jpg"
       url: "#"
 
     - title: "Brown Paper Card"
       sub_title: "Branding"
       images:
-        - img: "/assets/images/art/s5.jpg"
-        - img: "/assets/images/art/s5-2.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s5.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s5-2.jpg"
       url: "#"
 
     - title: "Shopping Paperbag"
       sub_title: "Corporate, Branding"
       images:
-        - img: "/assets/images/art/s6.jpg"
-        - img: "/assets/images/art/s6-2.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s6.jpg"
+        - img: "{{site.baseurl}}/assets/images/art/s6-2.jpg"
       url: "#"
 
 awards_area:
   enable: true
   title: "Let's Work Together"
   sub_title: "Think unique, be unique. Make a difference with Snowlake."
-  bg_image: "/assets/images/art/bg12.jpg"
+  bg_image: "{{site.baseurl}}/assets/images/art/bg12.jpg"
   lists:
 
     - title: "Completed Projects"
       numbers: "7518"
-      icon: "/assets/images/icons/hs-check.png"
+      icon: "{{site.baseurl}}/assets/images/icons/hs-check.png"
 
     - title: "Satisfied Customers"
       numbers: "80"
-      icon: "/assets/images/icons/st-handshake.png"
+      icon: "{{site.baseurl}}/assets/images/icons/st-handshake.png"
 
     - title: "Expert Employees"
       numbers: "60"
-      icon: "/assets/images/icons/sm-develop.png"
+      icon: "{{site.baseurl}}/assets/images/icons/sm-develop.png"
 
     - title: "Awards Won"
       numbers: "90"
-      icon: "/assets/images/icons/ms-medal.png"
+      icon: "{{site.baseurl}}/assets/images/icons/ms-medal.png"
 ---
 
   {% include header.html extra_class="wide bg-white shadow navbar-expand-lg nav-uppercase" %}
@@ -646,7 +646,7 @@ awards_area:
     <!-- /.container -->
     {% if page.awards_area.bg_image %}
     <figure class="cover">
-      <img src="/assets/images/art/bg12.jpg" alt="" />
+      <img src="{{site.baseurl}}/assets/images/art/bg12.jpg" alt="" />
     </figure>
     {% endif %}
   </div>

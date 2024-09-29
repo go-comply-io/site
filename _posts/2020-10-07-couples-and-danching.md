@@ -5,15 +5,15 @@ date: 2020-10-07 20:37:13 +0600
 tags: technology education
 categories: [couples]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b2.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b2.jpg"
 badge_color: "bg-meander"
 post_format: "gallery"
 gallery:
-  - img: "/assets/images/art/bgi1-full.jpg"
-  - img: "/assets/images/art/bgi2-full.jpg"
-  - img: "/assets/images/art/bgi3-full.jpg"
-  - img: "/assets/images/art/bgi4-full.jpg"
-  - img: "/assets/images/art/bgi5-full.jpg"
+  - img: "{{site.baseurl}}/assets/images/art/bgi1-full.jpg"
+  - img: "{{site.baseurl}}/assets/images/art/bgi2-full.jpg"
+  - img: "{{site.baseurl}}/assets/images/art/bgi3-full.jpg"
+  - img: "{{site.baseurl}}/assets/images/art/bgi4-full.jpg"
+  - img: "{{site.baseurl}}/assets/images/art/bgi5-full.jpg"
 trending: true
 ---
 

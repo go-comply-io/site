@@ -6,10 +6,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Snowlake is a multi-concept and powerful site template contains 
   rich layouts with possibility of unlimited combinations & beautiful elements.
 
-black_logo_1x: "/assets/images/logo.png"
-black_logo_2x: "/assets/images/logo@2x.png"
-light_logo_1x: "/assets/images/logo-light.png"
-light_logo_2x: "/assets/images/logo-light@2x.png"
+black_logo_1x: "{{site.baseurl}}/assets/images/logo.png"
+black_logo_2x: "{{site.baseurl}}/assets/images/logo@2x.png"
+light_logo_1x: "{{site.baseurl}}/assets/images/logo-light.png"
+light_logo_2x: "{{site.baseurl}}/assets/images/logo-light@2x.png"
 
 address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
 phone_number: "+00 (123) 456 78 90"
@@ -107,16 +107,16 @@ one_page_nav_settings:
       url: "#contact"
 
 author_page_header:
-  header_background_image: "/assets/images/art/bg31.jpg"
+  header_background_image: "{{site.baseurl}}/assets/images/art/bg31.jpg"
 
 gallery:
   images:
-  - img: "/assets/images/art/z1.svg"
-  - img: "/assets/images/art/z2.svg"
-  - img: "/assets/images/art/z3.svg"
-  - img: "/assets/images/art/z4.svg"
-  - img: "/assets/images/art/z5.svg"
-  - img: "/assets/images/art/z6.svg"
-  - img: "/assets/images/art/z7.svg"
-  - img: "/assets/images/art/z8.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z1.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z2.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z3.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z4.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z5.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z6.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z7.svg"
+  - img: "{{site.baseurl}}/assets/images/art/z8.svg"
  

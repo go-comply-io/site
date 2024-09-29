@@ -3,7 +3,7 @@ layout: post
 title: "The Best Moments in Venice"
 date: 2021-09-15 20:37:13 +0600
 author: "Tortoiz Themes"
-post_image: "/assets/images/art/tb1.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/tb1.jpg"
 badge_color: "bg-purple"
 categories: [places]
 slider_post: true

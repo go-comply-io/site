@@ -5,7 +5,7 @@ date: 2020-10-07 20:37:13 +0600
 tags: technology education
 categories: [engagement]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b3.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b3.jpg"
 badge_color: "bg-green"
 trending: true
 ---

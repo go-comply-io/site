@@ -4,7 +4,7 @@ title: "Morbi leo risus porta eget metus est non commodolacus"
 date: 2020-10-03 20:37:13 +0600
 categories: [engagement]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b17.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b17.jpg"
 badge_color: "bg-leaf"
 ---
 

@@ -4,7 +4,7 @@ title: "Nullam id dolor elit id nibh pharetra augue venenatis"
 date: 2020-10-04 20:37:13 +0600
 categories: [engagement]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b15.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b15.jpg"
 badge_color: "bg-purple"
 post_format: "video"
 vimeo_video_id: "90355541"

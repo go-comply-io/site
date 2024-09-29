@@ -5,7 +5,7 @@ date: 2020-10-08 20:37:13 +0600
 tags: technology education
 categories: [wedding]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b1.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b1.jpg"
 badge_color: "bg-meander"
 post_format: "general"
 trending: true

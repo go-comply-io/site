@@ -3,7 +3,7 @@ layout: post
 title: "The Biggest Train Station in Europe"
 date: 2020-09-06 20:37:13 +0600
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/tb6.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/tb6.jpg"
 badge_color: "bg-pink"
 categories: [vlog]
 slider_post: true

@@ -2,7 +2,7 @@
 layout: author_page
 title: "Tortoiz Theme"
 sub_title: "About the Author"
-image: "/assets/images/art/about.jpg"
+image: "{{site.baseurl}}/assets/images/art/about.jpg"
 primary_author: true
 bio: |
   Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, scelerisque nisl.

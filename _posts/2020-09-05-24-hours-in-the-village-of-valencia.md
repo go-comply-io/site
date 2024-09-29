@@ -3,7 +3,7 @@ layout: post
 title: "24 Hours in the Village of Valencia"
 date: 2020-09-05 20:37:13 +0600
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/tb5.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/tb5.jpg"
 badge_color: "bg-green"
 categories: [travel]
 tags: Shopping

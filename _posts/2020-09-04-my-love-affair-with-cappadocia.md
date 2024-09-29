@@ -3,7 +3,7 @@ layout: post
 title: "My Love Affair with Cappadocia"
 date: 2020-09-04 20:37:13 +0600
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/tb4.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/tb4.jpg"
 badge_color: "bg-violet"
 categories: [historic]
 slider_post: true

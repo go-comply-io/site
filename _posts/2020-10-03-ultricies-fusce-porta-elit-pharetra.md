@@ -4,7 +4,7 @@ title: "Nullam id dolor elit id nibh pharetra augue venenatis"
 date: 2020-10-03 20:37:13 +0600
 categories: [couples]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b16.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b16.jpg"
 badge_color: "bg-meander"
 ---
 

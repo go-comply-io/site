@@ -6,7 +6,7 @@ page_header:
   sub_title: "Page Loading animation"
   button_text: "Read More"
   button_url: "#"
-  background_image: "/assets/images/art/bg5.jpg"
+  background_image: "{{site.baseurl}}/assets/images/art/bg5.jpg"
 
 services_area:
   enable: true
@@ -48,7 +48,7 @@ process_area:
   enable: true
   title: "Our Process"
   sub_title: "Find out everything you need to know about creating a business process."
-  image: "/assets/images/art/about5.jpg" 
+  image: "{{site.baseurl}}/assets/images/art/about5.jpg" 
   video_url: "https://www.youtube.com/watch?v=26TbMXXOe0I"
   description: |
     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia.
@@ -64,7 +64,7 @@ steps:
   enable: true
   title: "Our Process"
   sub_title: "We bring solutions to make life easier for our customers"
-  image: "/assets/images/concept/concept1@2x.png"
+  image: "{{site.baseurl}}/assets/images/concept/concept1@2x.png"
   lists:
 
     - title: "Collect Ideas"
@@ -86,24 +86,24 @@ steps:
 testimonials:
   enable: true
   title: "CUSTOMER STORIES"
-  background_image: "/assets/images/art/bg5.jpg"
+  background_image: "{{site.baseurl}}/assets/images/art/bg5.jpg"
   feedback:
 
     - quote: |
         Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat.
-      image: "/assets/images/art/t5.jpg" 
+      image: "{{site.baseurl}}/assets/images/art/t5.jpg" 
       name: "Cornelia Gibson"
       designation: "Financial Analyst"
   
     - quote: |
         Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus.
-      image: "/assets/images/art/t2.jpg" 
+      image: "{{site.baseurl}}/assets/images/art/t2.jpg" 
       name: "Coriss Ambady"
       designation: "Marketing Specialist"
   
     - quote: |
         Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget.
-      image: "/assets/images/art/t3.jpg" 
+      image: "{{site.baseurl}}/assets/images/art/t3.jpg" 
       name: "Barclay Widerski"
       designation: "Sales Manager"
 
@@ -143,7 +143,7 @@ about_us:
   enable: true
   title: "Let's Talk"
   sub_title: "Let's make something great together. If you got any questions, don't hesitate to get in touch with us."
-  image: "/assets/images/concept/concept12@2x.png"
+  image: "{{site.baseurl}}/assets/images/concept/concept12@2x.png"
   description: |
     Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
   button_one_text: "Get Started"
@@ -155,7 +155,7 @@ subscribe_popup_modal:
   enabled: true
   title: "Join our Mailing List"
   sub_title: "Subscribe to our newsletter to get our latest news delivered right to your inbox!"
-  image: "/assets/images/art/bg21.jpg"
+  image: "{{site.baseurl}}/assets/images/art/bg21.jpg"
   form_action_email: "tortoiztheme@gmail.com"
   button_text: "Join"
   help_text: "We hate spam and we respect your privacy."
@@ -376,7 +376,7 @@ subscribe_popup_modal:
     <!-- /section -->
     {% endif %} 
 {% if page.testimonials.enable %}
-<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="/assets/images/art/bg5.jpg">
+<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="{{site.baseurl}}/assets/images/art/bg5.jpg">
   <div class="container inner pt-100">
     <div class="row">
       <div class="col-lg-8 offset-lg-2">

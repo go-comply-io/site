@@ -4,7 +4,7 @@ title: "Mollis adipiscing lorem quis mollis eget lacinia faucibus"
 date: 2020-10-02 20:37:13 +0600
 categories: [wedding]
 author: "Tortoiz Theme"
-post_image: "/assets/images/art/b18.jpg"
+post_image: "{{site.baseurl}}/assets/images/art/b18.jpg"
 badge_color: "bg-violet"
 ---
 
