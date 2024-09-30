@@ -9,17 +9,23 @@ main_menu:
     url: "/"
     menu_type: "megamenu"
     submenu:
-
       - text: "Jira"
         url: "/"
-  - text: "About 04"
+
+  - text: "About Us"
     url: "/about/about-4"
-  
+    menu_type: "dropdown"
+    has_submenu: "true"
+
+  - text: "Requst  a Demo"
+    url: "/contact/contact-4"
+    menu_type: "dropdown"
+    has_submenu: "false"
+
   - text: "Home"
     url: "/"
     menu_type: "megamenu"
     submenu:
-
       - text: "Digital Startup"
         url: "/"
 
@@ -105,7 +111,7 @@ main_menu:
     url: "/"
     menu_type: "dropdown"
     has_submenu: "true"
-    
+
     label_two:
       - sub_menu_text: "Services"
         sub_menu:
@@ -123,7 +129,7 @@ main_menu:
 
           - text: "Service 05"
             url: "/services/index-5"
- 
+
       - sub_menu_text: "About Us"
         sub_menu:
           - text: "About 01"
@@ -137,7 +143,7 @@ main_menu:
 
           - text: "About 04"
             url: "/about/about-4"
-      
+
       - sub_menu_text: "Shop"
         sub_menu:
           - text: "Shop 01"
@@ -160,7 +166,6 @@ main_menu:
           - text: "Contact 04"
             url: "/contact/contact-4"
     submenu:
-
       - text: "FAQ"
         url: "/faq"
 
@@ -174,7 +179,6 @@ main_menu:
     url: "/"
     menu_type: "megamenu"
     submenu:
-
       - text: "Accordion"
         url: "/elements/accordion"
 
@@ -318,7 +322,7 @@ main_menu:
 
       - text: "Portfolio 07"
         url: "/portfolios/index-7"
-      
+
       - text: "Portfolio 08"
         url: "/portfolios/index-8"
 
