@@ -1,18 +1,20 @@
 main_menu:
-   - text: "Policy Mangmanet"
+  - text: "Policy Management"
     url: "/"
-    
-  - text: "User Access review"
+
+  - text: "User Acess Review"
     url: "/"
-  
-  - text: "Integraions"
+
+  - text: "Integrations"
     url: "/"
     menu_type: "megamenu"
     submenu:
 
       - text: "Jira"
         url: "/"
-    
+  - text: "About 04"
+    url: "/about/about-4"
+  
   - text: "Home"
     url: "/"
     menu_type: "megamenu"
