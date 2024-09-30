@@ -1,5 +1,18 @@
 main_menu:
+   - text: "Policy Mangmanet"
+    url: "/"
+    
+  - text: "User Access review"
+    url: "/"
+  
+  - text: "Integraions"
+    url: "/"
+    menu_type: "megamenu"
+    submenu:
 
+      - text: "Jira"
+        url: "/"
+    
   - text: "Home"
     url: "/"
     menu_type: "megamenu"
