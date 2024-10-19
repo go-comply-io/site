@@ -1,9 +1,20 @@
 main_menu:
-  - text: "Policy Management"
-    url: "/"
+  - text: "Services"
+    url: "/services/"
+    submenu:
+      - text: "Policy Management"
+        url: "/portfolios/index"
 
-  - text: "User Acess Review"
-    url: "/"
+      - text: "User Acess Review"
+        url: "/portfolios/index-2"
+      - text: "Risk Management"
+        url: "/portfolios/index-2"
+
+  # - text: "Policy Management"
+  #   url: "/"
+
+  # - text: "User Acess Review"
+  #   url: "/"
 
   - text: "Integrations"
     url: "/"
@@ -12,14 +23,22 @@ main_menu:
       - text: "Jira"
         url: "/"
 
+
+
   - text: "About Us"
-    url: "/about/about-4"
-    menu_type: "dropdown"
-    has_submenu: "true"
+    url: "/services/"
+    submenu:
+      - text: "About us "
+        url: "/portfolios/index"
+
+      - text: "Company"
+        url: "/portfolios/index-2"
+      - text: "Careers"
+        url: "/portfolios/index-2"
 
   - text: "Requst  a Demo"
     url: "/contact/contact-4"
-    menu_type: "dropdown"
+    menu_type: ""
     has_submenu: "false"
 
   # - text: "Home"
