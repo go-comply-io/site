@@ -14,11 +14,11 @@ main_menu:
         url: "/services/compliance-management"
 
   - text: "Integrations"
-    url: "/"
+    url: "/integrations/"
     menu_type: "megamenu"
     submenu:
       - text: "Jira"
-        url: "/"
+        url: "/integrations/list"
 
 
 
