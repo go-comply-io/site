@@ -3,18 +3,15 @@ main_menu:
     url: "/services/"
     submenu:
       - text: "Policy Management"
-        url: "/portfolios/index"
+        url: "/services/policy-management"
 
       - text: "User Acess Review"
-        url: "/portfolios/index-2"
+        url: "/services/user-acess-review"
       - text: "Risk Management"
-        url: "/portfolios/index-2"
-
-  # - text: "Policy Management"
-  #   url: "/"
-
-  # - text: "User Acess Review"
-  #   url: "/"
+        url: "/services/risk-management"
+        
+      - text: "Compliance Management"
+        url: "/services/compliance-management"
 
   - text: "Integrations"
     url: "/"
