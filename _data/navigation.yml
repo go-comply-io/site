@@ -9,9 +9,26 @@ main_menu:
         url: "/services/user-acess-review"
       - text: "Risk Management"
         url: "/services/risk-management"
-        
+
       - text: "Compliance Management"
         url: "/services/compliance-management"
+
+  - text: "Frameworks"
+    url: "#"
+    submenu:
+      - text: "Soc 2"
+        url: "frameworks/soc-2"
+
+      - text: "ISO 27001"
+        url: "frameworks/iso-27001"
+      - text: "GDPR"
+        url: "frameworks/gdpr"
+      - text: "Hipaa"
+        url: "frameworks/hipaa"
+      - text: "CIS"
+        url: "frameworks/cis"
+      - text: "CCPA"
+        url: "frameworks/ccpa"
 
   - text: "Integrations"
     url: "/integrations/"
@@ -19,8 +36,6 @@ main_menu:
     submenu:
       - text: "Jira"
         url: "/integrations/list"
-
-
 
   - text: "About Us"
     url: "#"
