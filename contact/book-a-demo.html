@@ -1,5 +1,5 @@
 ---
-layout: one_page
+layout: general_page
 page_header:
   enable: true
   title: "Book a Demo"
@@ -58,9 +58,7 @@ contact_area:
       error_message: "Message Is required"
 
 ---
-
-{% include header.html container_class="container" extra_class="absolute transparent inverse-text nav-uppercase"
-light_logo="true" %}
+ 
 {% if page.page_header.enable %}
 {% assign page_d = page.page_header %}
 <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text"
@@ -87,5 +85,6 @@ light_logo="true" %}
         <!--contact form-->
         {% include contact_1.html %}
         <!--/.contact form-->
+        
  
 {% include footer_3.html light_logo="true" %}
