@@ -23,15 +23,15 @@ main_menu:
 
 
   - text: "About Us"
-    url: "/services/"
+    url: "#"
     submenu:
       - text: "About us "
-        url: "/portfolios/index"
+        url: "/about-us"
 
       - text: "Company"
-        url: "/portfolios/index-2"
+        url: "/company"
       - text: "Careers"
-        url: "/portfolios/index-2"
+        url: "/careers/index"
 
   - text: "Requst  a Demo"
     url: "/contact/contact-4"

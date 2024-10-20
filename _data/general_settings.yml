@@ -11,13 +11,13 @@ black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "./assets/images/logo-light.png"
 light_logo_2x: "./assets/images/logo-light@2x.png"
 
-address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
+address_01: "Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom"
 phone_number: "+00 (123) 456 78 90"
 copyright_text: "© 2021 Snowlake. All rights reserved."
 
 google_analytics:
   enable: false
-  key: "UA-664136761-1"  # UA-664136761-1
+  key: "UA-664136761-1" # UA-664136761-1
 
 google_map: |
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4564967931838!2d-122.03250858386237!3d37.33169997984258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b6e94ffe23%3A0x63bb79532baa6af4!2sApple+Campus!5e0!3m2!1sen!2str!4v1553850783971!5m2!1sen!2str" style="width:100%; height: 100%; border:0" allowfullscreen=""></iframe>
@@ -36,10 +36,9 @@ social_accounts:
 
     - url: "#"
       icon: "jam jam-vimeo"
-      
+
     - url: "#"
       icon: "jam jam-youtube"
-
 
 external_links:
   title: "Learn More"
@@ -55,7 +54,6 @@ external_links:
     - url: "#"
       text: "Features"
 
-
 external_links_02:
   title: "Need Help?"
   links:
@@ -63,13 +61,12 @@ external_links_02:
       text: "Support"
     - url: "#"
       text: "Get Started"
-    - url: "#"
+    - url: "/contact-Us"
       text: "Contact Us"
-    - url: "#"
+    - url: "/general/terms-of-use"
       text: "Terms of Use"
-    - url: "#"
+    - url: "/general/privacy-policy"
       text: "Privacy Policy"
-
 
 external_links_03:
   title: "Company"
@@ -89,7 +86,6 @@ footer_newsletter:
   title: "Our Newsletter"
   sub_title: "Subscribe to our newsletter to get our news & deals delivered to your inbox!"
   subscribe_button_text: "Join"
-
 
 one_page_nav_settings:
   links:
@@ -111,12 +107,11 @@ author_page_header:
 
 gallery:
   images:
-  - img: "/assets/images/art/z1.svg"
-  - img: "/assets/images/art/z2.svg"
-  - img: "/assets/images/art/z3.svg"
-  - img: "/assets/images/art/z4.svg"
-  - img: "/assets/images/art/z5.svg"
-  - img: "/assets/images/art/z6.svg"
-  - img: "/assets/images/art/z7.svg"
-  - img: "/assets/images/art/z8.svg"
- 
+    - img: "/assets/images/art/z1.svg"
+    - img: "/assets/images/art/z2.svg"
+    - img: "/assets/images/art/z3.svg"
+    - img: "/assets/images/art/z4.svg"
+    - img: "/assets/images/art/z5.svg"
+    - img: "/assets/images/art/z6.svg"
+    - img: "/assets/images/art/z7.svg"
+    - img: "/assets/images/art/z8.svg"
